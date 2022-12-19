@@ -2,11 +2,23 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<div class="publications">
+	<h2 class="year">2022</h2>
 
-Organize your courses by years, topics, or universities, however you like!
+	<h4><b>COMP 1117 - Computer Programming</b></h4>
+	<h6>Undergraduate course, Sem 1, 2022-2023</h6>
+	<h6><i>Department of Computer Science, The University of Hong Kong</i></h6>
+	<h6>Teaching Assistant</h6>
+
+	<br>
+
+	<h4><b>COMP 3320 - Electronic Commerce Technology</b></h4>
+	<h6>Undergraduate course, Sem 2, 2021-2022</h6>
+	<h6><i>Department of Computer Science, The University of Hong Kong</i></h6>
+	<h6>Teaching Assistant</h6>
+</div>
