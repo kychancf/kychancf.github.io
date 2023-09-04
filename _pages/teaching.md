@@ -26,7 +26,7 @@ nav_order: 6
 	<h4><b>FITE 7409 - Blockchain and cryptocurrency</b></h4>
 	<h6>Taught Postgraduate course, Sem 2, 2022-2023</h6>
 	<h6><i>Department of Computer Science, The University of Hong Kong</i></h6>
-	<h6>Teaching Assistant</h6>
+	<h6>Teaching Assistant</h6> 
 
 	<h2 class="year">2022</h2>
 
