@@ -17,7 +17,7 @@ nav_order: 6
 	<br>
 
 	<h4><b>FITE 1010 - Introduction to financial technologies</b></h4>
-	<h6>Taught Postgraduate course, Sem 1, 2023-2024</h6>
+	<h6>Undergraduate course, Sem 1, 2023-2024</h6>
 	<h6><i>Department of Computer Science, The University of Hong Kong</i></h6>
 	<h6>Teaching Assistant</h6>
 
