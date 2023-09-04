@@ -10,6 +10,20 @@ nav_order: 6
 <div class="publications">
 	<h2 class="year">2023</h2>
 	<h4><b>FITE 7409 - Blockchain and cryptocurrency</b></h4>
+	<h6>Taught Postgraduate course, Sem 1, 2023-2024</h6>
+	<h6><i>Department of Computer Science, The University of Hong Kong</i></h6>
+	<h6>Teaching Assistant</h6>
+
+	<br>
+
+	<h4><b>FITE 1010 - Introduction to financial technologies</b></h4>
+	<h6>Taught Postgraduate course, Sem 1, 2022-2023</h6>
+	<h6><i>Department of Computer Science, The University of Hong Kong</i></h6>
+	<h6>Teaching Assistant</h6>
+
+	<br>
+
+	<h4><b>FITE 7409 - Blockchain and cryptocurrency</b></h4>
 	<h6>Taught Postgraduate course, Sem 2, 2022-2023</h6>
 	<h6><i>Department of Computer Science, The University of Hong Kong</i></h6>
 	<h6>Teaching Assistant</h6>
