@@ -6,8 +6,8 @@
   title={Efficient Multiplicative-to-Additive Function from Joye-Libert Cryptosystem and Its Application to Threshold ECDSA},
   author={Haiyang Xue and Man Ho Au and Mengling Liu and Kwan Yin Chan and Handong Cui and Xiang Xie and Tsz Hon Yuen and Chengru Zhang},
   year={2023},
-  publisher={To be appeared in CCS 2023},
-  journal={(To be published) The 30th ACM Conference on Computer and Communications Security, ACM., (ACM CCS) 2023, November 26-30, 2023},
+  publisher={CCS 2023},
+  journal={The 30th ACM Conference on Computer and Communications Security, ACM., (ACM CCS) 2023, November 26-30, 2023},
   eprint={https://eprint.iacr.org/2023/1312},
   abstract={Threshold ECDSA receives interest lately due to its widespread adoption in blockchain applications. A common building block of all leading constructions involves a secure conversion of multiplicative shares into additive ones, which is called the multiplicative-to-additive (MtA) function.  MtA dominates the overall complexity of all existing threshold ECDSA constructions. Specifically, O(n^2)invocations of MtA are required in the case of n active signers. Hence, improvement of MtA leads directly to significant improvements for all state-of-the-art threshold ECDSA schemes. 
   In this paper, we design a novel MtA by revisiting the Joye-Libert (JL) cryptosystem. Specifically, we revisit JL encryption and propose a JL-based commitment, then give efficient zero-knowledge proofs for JL cryptosystem which are the first to have standard soundness. Our new MtA offers the best time-space complexity trade-off among all existing  MtA constructions. It outperforms state-of-the-art constructions from Paillier by a factor of 1.82 to 2 in bandwidth and 1.2 to 1.7 in computation. It is 7x faster than those based on Castagnos-Laguillaumie encryption only at the cost of 2x more bandwidth. While our MtA is slower than OT-based constructions, it saves 18.7x in bandwidth requirement. In addition, we also design a batch version of MtA to further reduce the amotised time and space cost by another 25%.}
@@ -18,9 +18,10 @@
   title={DIDO: Data Provenance from Restricted TLS 1.3 Websites},
   author={Kwan Yin Chan and Handong Cui and Tsz Hon Yuen},
   year={2023},
-  publisher={To be appeared in ISPEC 2023},
-  journal={(To be published) The 18th International Conference on Information Security Practice and Experience, ISPEC 2023, August 24-25, 2023},
+  publisher={ISPEC 2023},
+  journal={The 18th International Conference on Information Security Practice and Experience, ISPEC 2023, August 24-25, 2023},
   eprint={https://eprint.iacr.org/2023/1056},
+  html={https://link.springer.com/chapter/10.1007/978-981-99-7032-2_10},
   abstract={Public data can be authenticated by obtaining from a trustworthy website with TLS. Private data, such as user profile, are usually restricted from public access. If a user wants to authenticate his private data (e.g., address) provided by a restricted website (e.g., user profile page of a utility company website) to a verifier, he cannot simply give his username and password to the verifier. DECO (CCS 2020) provides a solution for liberating these data without introducing undesirable trust assumption, nor requiring server-side modification. Their implementation is mainly based on TLS 1.2.
   In this paper, we propose an optimized solution for TLS 1.3 websites. We tackle a number of open problems, including the support of X25519 key exchange in TLS 1.3, the design of round-optimal three-party key exchange, the architecture of two-party computation of TLS 1.3 key scheduling, and circuit design optimized for two-party computation. We test our implementation with real world website and show that our optimization is necessary to avoid timeout in TLS handshake.
   }
