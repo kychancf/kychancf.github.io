@@ -15,6 +15,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Ken Chan is a fourth year PhD student in the Department of Computer Science at the University of Hong Kong, advised by [Prof. S. M. Yiu](https://www.cs.hku.hk/people/academic-staff/smyiu) and [Dr. John T. H. Yuen](https://thyuen.github.io/).
+Ken Chan is a fourth year PhD student in the Department of Computer Science at the University of Hong Kong, advised by [Professor S. M. Yiu](https://www.cs.hku.hk/people/academic-staff/smyiu) and [Professor John T. H. Yuen](https://thyuen.github.io/).
 
 His research interest is cryptography.
