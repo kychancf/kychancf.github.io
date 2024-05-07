@@ -144,6 +144,9 @@
           {%- if entry.eprint %}
             <a href="{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button">eprint</a>
           {%- endif %}
+          {%- if entry.arxiv %}
+            <a href="{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arxiv</a>
+          {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
