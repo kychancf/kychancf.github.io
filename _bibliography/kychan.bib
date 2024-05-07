@@ -1,7 +1,19 @@
 ---
 ---
 
-@article{CCS2023,
+@article{AsiaCCS2024,
+  abbr={AsiaCCS 2024},
+  title={Reconstructing Chameleon Hash: Full Security and the Multi-Party Setting},
+  author={ Kwan Yin Chan and Liqun Chen and Yangguang Tian and Tsz Hon Yuen},
+  year={2024},
+  publisher={AsiaCCS 2023},
+  journal={(To be published) The 19th ACM ASIA Conference on Computer and Communications Security (ACM ASIACCS 2024), July 1-5, 2024},
+  code={https://github.com/kychancf/CCTY24_cham_hash},
+  abstract={Chameleon hash (CH) function differs from a classical hash function in a way that a collision can be found with the knowledge of a trapdoor secret key. CH schemes have been used in various cryptographic applications such as sanitizable signatures and redactable blockchains. In this work, we reconstruct CH to ensure advanced security and usability. Our contributions are four-fold. First, we propose the first CH scheme, which supports full security, meaning the inclusion of both full indistinguishability and full collision-resistance. These two properties are required in the strongest CH security model in the literature. We achieve this by our innovative design of removing the CH public key during the computation of the hash value. 
+  Second, we investigate the security of CH in the multi-party setting and introduce the new properties of claimability and deniability under this setting. Third, we present and implement two instantiations of our CH scheme: an ECC-based one and a post-quantum lattice-based one. Our implementation demonstrates their practicality. Finally, we discuss the possible use cases in the blockchain.}
+}
+
+@article{10.1145/3576915.3616595,
   abbr={CCS 2023},
   title={Efficient Multiplicative-to-Additive Function from Joye-Libert Cryptosystem and Its Application to Threshold ECDSA},
   author={Haiyang Xue and Man Ho Au and Mengling Liu and Kwan Yin Chan and Handong Cui and Xiang Xie and Tsz Hon Yuen and Chengru Zhang},
@@ -14,7 +26,7 @@
   In this paper, we design a novel MtA by revisiting the Joye-Libert (JL) cryptosystem. Specifically, we revisit JL encryption and propose a JL-based commitment, then give efficient zero-knowledge proofs for JL cryptosystem which are the first to have standard soundness. Our new MtA offers the best time-space complexity trade-off among all existing  MtA constructions. It outperforms state-of-the-art constructions from Paillier by a factor of 1.82 to 2 in bandwidth and 1.2 to 1.7 in computation. It is 7x faster than those based on Castagnos-Laguillaumie encryption only at the cost of 2x more bandwidth. While our MtA is slower than OT-based constructions, it saves 18.7x in bandwidth requirement. In addition, we also design a batch version of MtA to further reduce the amotised time and space cost by another 25%.}
 }
 
-@article{DIDO,
+@article{10.1007/978-981-99-7032-2_10,
   abbr={ISPEC 2023},
   title={DIDO: Data Provenance from Restricted TLS 1.3 Websites},
   author={Kwan Yin Chan and Handong Cui and Tsz Hon Yuen},
@@ -28,7 +40,7 @@
   }
 }
 
-@article{COMPJ,
+@article{COMPJbxad057,
   abbr={Computer Journal},
   title={Bandwidth-Efficient Zero-Knowledge Proofs for Threshold ECDSA},
   author={Handong Cui and Kwan Yin Chan and Tsz Hon Yuen and Xin Kang and Cheng-Kang Chu},
