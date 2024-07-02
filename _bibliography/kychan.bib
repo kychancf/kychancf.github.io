@@ -1,13 +1,25 @@
 ---
 ---
 
+@article{Usenix2024,
+  abbr={USENIX 2024},
+  title={O-Ring and K-Star: Efficient Multi-party Private Set Intersection},
+  author={ Mingli Wu and Tsz Hon Yuen and Kwan Yin Chan},
+  year={2024},
+  publisher={USENIX 2024},
+  journal={(To be published) The 33rd USENIX Security Symposium, August 14-16, 2024},
+  abstract={Multi-party private set intersection (mPSI) securely enables multiple parties to know the intersection of their sets without disclosing anything else. Many mPSI protocols are not efficient in practice. In this paper, we propose two efficient mPSI protocols that are secure against an arbitrary number of colluding parties. In the protocol O-Ring, we take advantage of the ring network topology such that the communication costs of the party with the largest workload can be cheaper than other mPSI protocols with a star topology. In the protocol K-Star, we take advantage of the star topology to support better concurrency such that the protocol can run fast. K-Star is suitable for applications with a powerful centralized server. Different from KMPRT (CCS'17) and CDGOSS (CCS'21) that rely on Oblivious Programmable PRF primitive, we simply utilize the cheaper Oblivious PRF (OPRF) and a data structure Oblivious Key-value Store (OKVS). We further propose two fine-grained optimizations for OKVS and OPRF in multi-party cases to improve runtime performance.
+  After extensive experiments, we demonstrate that both protocols run the fastest and achieve the lowest total communication costs compared with the state-of-the-art counterparts in most settings. Specifically, O-Ring/K-Star is respectively 1.6x - 48.3x and 4.0x - 39.8x (except one setting) cheaper than KMPRT (CCS'17) and CDGOSS (CCS'21) in the total communication costs. For the total running time, K-Star can be respectively 1.4x - 9.0x and 1.0x - 15.3x as fast as them in the LAN setting.}
+}
+
 @article{AsiaCCS2024,
   abbr={AsiaCCS 2024},
   title={Reconstructing Chameleon Hash: Full Security and the Multi-Party Setting},
   author={ Kwan Yin Chan and Liqun Chen and Yangguang Tian and Tsz Hon Yuen},
   year={2024},
   publisher={AsiaCCS 2024},
-  journal={(To be published) The 19th ACM ASIA Conference on Computer and Communications Security (ACM ASIACCS 2024), July 1-5, 2024},
+  journal={The 19th ACM ASIA Conference on Computer and Communications Security (ACM ASIACCS 2024), July 1-5, 2024},
+  html={https://doi.org/10.1145/3634737.3656291},
   code={https://github.com/kychancf/CCTY24_cham_hash},
   abstract={Chameleon hash (CH) function differs from a classical hash function in a way that a collision can be found with the knowledge of a trapdoor secret key. CH schemes have been used in various cryptographic applications such as sanitizable signatures and redactable blockchains. In this work, we reconstruct CH to ensure advanced security and usability. Our contributions are four-fold. First, we propose the first CH scheme, which supports full security, meaning the inclusion of both full indistinguishability and full collision-resistance. These two properties are required in the strongest CH security model in the literature. We achieve this by our innovative design of removing the CH public key during the computation of the hash value. 
   Second, we investigate the security of CH in the multi-party setting and introduce the new properties of claimability and deniability under this setting. Third, we present and implement two instantiations of our CH scheme: an ECC-based one and a post-quantum lattice-based one. Our implementation demonstrates their practicality. Finally, we discuss the possible use cases in the blockchain.}
