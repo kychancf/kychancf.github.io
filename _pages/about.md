@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Ken Chan, a Ph.D. candidate in Computer Science at The University of Hong Kong, advised by Professor Siu Ming Yiu and Professor John Tsz hon Yuen. My research explores cryptography. Before joining The University of Hong Kong, I completed an BEng in Computer Science at The Hong Kong University of Science and Technology.
+I am Ken Chan, a Ph.D. candidate in Computer Science at The University of Hong Kong, advised by [Professor Siu Ming Yiu](https://www.cs.hku.hk/index.php/people/academic-staff/smyiu) and [Professor John Tsz hon Yuen](https://thyuen.github.io/). My research explores cryptography. Before joining The University of Hong Kong, I completed a BEng in Computer Science at The Hong Kong University of Science and Technology.
