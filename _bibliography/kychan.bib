@@ -1,12 +1,23 @@
 ---
 ---
 
+@article{UC_TRS,
+  abbr={Cryptography},
+  title={Universally Composable Traceable Ring Signature with Verifiable Random Function in Logarithmic Size},
+  author={Kwan Yin Chan and Tsz Hon Yuen and Siu Ming Yiu},
+  year={2025},
+  publisher={MDPI},
+  journal={Cryptography},
+  html={https://www.mdpi.com/2410-387X/9/3/59},
+  abstract={Traceable ring signatures (TRSs) allow a signer to create a signature that maintains anonymity while enabling traceability if needed. It merges the characteristics of traditional ring signatures with the ability to trace signers, making it ideal for applications that demand both confidentiality and accountability. In a TRS scheme, a ring of potential signers generates a signature on a message without disclosing the actual signer’s identity. However, the identity can be traced if the signer uses the same tag for multiple signatures. This paper introduces a novel formal construction of TRS under universally composable (UC) security. We integrate verifiable random functions (VRFs) and zero-knowledge proofs for membership, employing Pedersen commitments. Our signature schemes maintain a logarithmic size while preserving the UC security guarantees. Additionally, we explore the potential to extend the property of one-time anonymity in TRS to K-time anonymity.}
+}
+
 @article{DIDO_TDSC,
   abbr={IEEE TDSC},
   title={DIDO+: Data Provenance from Restricted TLS 1.3 Websites with Selective Disclosure},
   author={Kwan Yin Chan and Handong Cui and Tsz Hon Yuen and Siu Ming Yiu},
   year={2025},
-  publisher={IEEE TDSC},
+  publisher={IEEE},
   journal={IEEE Transactions on Dependable and Secure Computing},
   preprint={https://www.computer.org/csdl/journal/tq/5555/01/11112651/28UtsIzeOHe},
   abstract={Public data can be authenticated via TLS from trustworthy websites, while private data, such as user profiles, is generally restricted. Users cannot share their username and password to access private data (e.g., addresses) from restricted sites (e.g., utility companies). DECO (CCS 2020) presents a TLS 1.2-based solution that facilitates data liberation without imposing excessive trust assumptions or requiring server-side modifications. In our previous work, DIDO (ISPEC 2023), we proposed an optimized solution for TLS 1.3 websites. We addressed several open problems, including support for X25519 key exchange, the design of round-optimal three-party key exchange, the architecture of 2PC for TLS 1.3 key scheduling, and circuit design optimized for 2PC. Our implementation was tested on real-world websites. In this work, DIDO+, we provide a comparison with recent concurrent efforts and offer additional details about DIDO. We also present the NIZK proofs utilized in three-party key exchange under malicious settings. Finally, we introduce a new protocol called selective disclosure, which allows for the disclosure of specific portions of plaintext to the verifier, instead of the entirety.}
